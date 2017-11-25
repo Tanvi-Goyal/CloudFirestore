@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CloudFirestore.iml" filepath="$PROJECT_DIR$/CloudFirestore.iml" />
+      <module fileurl="file://C:\AndroidProject\CloudFirestore\CloudFirestore.iml" filepath="C:\AndroidProject\CloudFirestore\CloudFirestore.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\AndroidProject\CloudFirestore\app\app.iml" filepath="C:\AndroidProject\CloudFirestore\app\app.iml" />
     </modules>
   </component>
 </project>
