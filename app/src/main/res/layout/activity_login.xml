@@ -4,27 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.cloudfirestore.MainActivity">
+    tools:context="com.example.cloudfirestore.LogIn">
 
 
     <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Enter Roll No."
+        android:hint="Username"
         android:layout_marginTop="100dp"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/editText1"/>
+        android:id="@+id/username"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:layout_gravity="center"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="fetch2"
         android:layout_margin="10dp"
         android:textAllCaps="false"
-        android:text="Get-Details 🙂" />
+        android:id="@+id/login"
+        android:onClick="change"
+        android:text="Log-In 🙂" />
 
     <TextView
         android:layout_width="wrap_content"
